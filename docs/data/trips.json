@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "진주 본사지 방문",
+    "startDate": "2025-02-14",
+    "endDate": "2025-02-16",
+    "purpose": "지사 보고 및 미팅",
+    "departure": "서울",
+    "destination": "진주",
+    "meetings": [
+      {
+        "title": "미팅 1",
+        "date": "2025-02-14",
+        "time": "10:00",
+        "location": "본사 3층 회의실"
+      },
+      {
+        "title": "미팅 2",
+        "date": "2025-02-15",
+        "time": "14:00",
+        "location": "진주 지사"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "부산 고객사 미팅 출장",
+    "startDate": "2025-03-01",
+    "endDate": "2025-03-02",
+    "purpose": "고객사 솔루션 논의",
+    "departure": "서울",
+    "destination": "부산",
+    "meetings": [
+      {
+        "title": "1차 미팅",
+        "date": "2025-03-01",
+        "time": "11:00",
+        "location": "부산 센텀"
+      }
+    ]
+  }
+]
