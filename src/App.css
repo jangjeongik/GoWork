@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+}
+
+#root, .App {
+  max-width: 1200px; /* 원하는 중앙 영역 크기 */
+  margin: 0 auto; /* 화면 가운데 정렬 */
+  text-align: center; /* 기본 텍스트 중앙 */
+}

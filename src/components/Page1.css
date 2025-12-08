@@ -1,0 +1,38 @@
+.page1 {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;     
+  padding: 20px;
+  text-align: center;
+}
+
+.page1 h2, 
+.page1 h3 {
+  margin-bottom: 20px;
+}
+
+.page1 input {
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.page1 button {
+  width: 90%;
+  padding: 14px;
+  margin-top: 10px;
+  font-size: 18px;
+  background-color: #3B82F6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.page1 button:hover {
+  background-color: #2563EB;
+}
+

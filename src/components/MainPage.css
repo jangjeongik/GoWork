@@ -1,0 +1,27 @@
+.main {
+  text-align: center;
+  padding-top: 0px;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; 
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button img {
+  width: 150px;
+  height: 250px;
+  object-fit: contain;
+}
