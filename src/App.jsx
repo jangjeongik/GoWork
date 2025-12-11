@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import MainPage from "./components/MainPage";
 import Page1 from "./components/Page1";
 import Page2 from "./components/Page2";
@@ -8,7 +8,6 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
       <div className="App">
         <Routes>
           <Route path="/" element={<MainPage />} />
@@ -18,7 +17,6 @@ function App() {
          <Route path="/create-work/confirm" element={<ConfirmPage />} />
         </Routes>
       </div>
-    </BrowserRouter>
   );
 }
 
